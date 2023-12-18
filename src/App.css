@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.main {
+  background-color: #eeeeee;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.main h4 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #777;
+}
+
+.experience {
+  width: 60%;
+  margin-left: 10px;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.experience-item {
+  width: 48%; 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.experience-item h3 {
+  text-align: center;
+}
+
+.experience-item p.description {
+  margin: 10px 0;
+}
+
+.experience-item button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  border-radius: 2px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #979797;
+}
+
+.exp-edu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.education{
+  width: 30%;
+  margin-right: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.education-container {
+  padding: 20px 20px 10px 0px;
+  height: 30%;
+}
+
+.education-container div {
+  margin-bottom: 5px;
+}
+
+.name {
+  margin-bottom: 5px; 
+}
+
+.meta {
+  margin: 5px 0;
+}
+
+.languages-container{
+  height: 30%;
+}
+
+.education h2 {
+  margin-bottom: 20px;
+}
+
+.languages-container p{
+  margin: 0;
+}
+
+/* App.css */
+
+.skills {
+  width: 60%;
+  margin: auto;
+}
+
+.skills h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.skill img {
+  width: 100px; 
+  height: 100px; 
+  object-fit: cover;
+  border-radius: 50%; 
+}
+
+.skill h6 {
+  margin: 10px 0;
+}
+
+.skill p {
+  margin: 0;
+}
+
+.info {
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 100px;
+}
+
+.info p,
+.info a {
+  margin: 5px 0;
+}
+
+.info a {
+  color: #000;
+  display: block; 
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
